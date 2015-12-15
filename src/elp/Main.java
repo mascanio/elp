@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int a, b, c;
+		int a, b, c, r;
 		
 		System.out.println("Introduzca el dividendo: ");
 		a = sc.nextInt();
@@ -14,7 +14,8 @@ public class Main {
 		b = sc.nextInt();
 		
 		c = a / b;
-		System.out.println("Resultado = " + c);
+		r = a % b;
+		System.out.println("Resultado = " + c + " resto: " + r);
 		
 		sc.close();
 	}
