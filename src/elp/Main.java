@@ -8,9 +8,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int a, b, c;
 		
-		System.out.println("Inrtoduzca el dividendo: ");
+		System.out.println("Introduzca el dividendo: ");
 		a = sc.nextInt();
-		System.out.println("Inrtoduzca el d: ");
+		System.out.println("Introduzca el divisor: ");
 		b = sc.nextInt();
 		
 		c = a / b;
